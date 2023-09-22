@@ -1,9 +1,9 @@
 {
     "name": "Mediascrape",
-    "version": "1.0",
+    "version": "0.2",
     "description": "Scrape any webpage for images, videos, and audio files.",
     "manifest_version": 3,
-    "permissions": ["storage", "activeTab","tabs","downloads"],
+    "permissions": ["storage", "activeTab","tabs","downloads", "scripting"],
     "host_permissions": ["http://*/*","https://*/*"],
     "minimum_chrome_version": "93",
     "background": {
