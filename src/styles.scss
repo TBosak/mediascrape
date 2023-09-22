@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+  position: relative;
+}
+body {
+  margin: 0;
+  width: fit-content;
+  height: fit-content;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
